@@ -145,7 +145,7 @@ except IOError:
 
 a=requests.get("https://github.com/ENC-NASIR/MAX-PRO/blob/main/Aprov.txt").text
 b=str(a)
-key1=open("/storage/emulated/0/android8.txt",'r').read()
+vkg
 key2=str(key1)  
 if key2 in b:
     pass
